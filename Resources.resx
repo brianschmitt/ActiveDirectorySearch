@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Active Directory Search</value>
+  </data>
+  <data name="BadLogin" xml:space="preserve">
+    <value>Bad Login</value>
+  </data>
+  <data name="ErrorGeneric" xml:space="preserve">
+    <value>Your search term is too generic.</value>
+  </data>
+  <data name="ErrorPassword" xml:space="preserve">
+    <value>Required for domains other than {0}.</value>
+  </data>
+  <data name="ErrorRequired" xml:space="preserve">
+    <value>You must provide a search term.</value>
+  </data>
+  <data name="ErrorTooManyOptions" xml:space="preserve">
+    <value>Please unselect an option.</value>
+  </data>
+  <data name="HelpDomain" xml:space="preserve">
+    <value>Domain that you want to search.</value>
+  </data>
+  <data name="HelpFilter" xml:space="preserve">
+    <value>Enter all or part of the User's Name or Group to filter member results.  The filter criteria will match as long as it is contained in the string.  No wildcarding is necessary.</value>
+  </data>
+  <data name="HelpPassword" xml:space="preserve">
+    <value>Password for the domain you've chosen if it is not {0}.</value>
+  </data>
+  <data name="HelpSearch" xml:space="preserve">
+    <value>User ID or Group Name for which you wish to list group memberships. You can use an * as a wildcard.</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Check Groups A User Is A Member Of:  Enter the user ID for the user and either press enter or click the Check button.  A list of all of the groups that user is a member of will be displayed.  The groups displayed can be filtered by typing in the Result Filter textbox.  Any text appearing in the group name can be typed.  For instance, the filtered results when "filter" is entered in the result filter textbox would include the group "ENDUSER-GROUP-FILTER" because it contains those characters.  Simply delete all or part of what you typed in the Result Filter to view the unfiltered results.
+
+Check Users In A Group:  Enter the group name for which you would like to know the members.  Either the entire group name can be entered, or you can use the * wildcard to only enter part of the group name and a wild card.  For instance, you could enter "ENDUSER-GROUP-FILTER", in which case you would only get the users in that group, or you could enter *filter*, which would return the groups and their members for all groups that contain those characters anywhere in the group name.  filter* would return any group names that start with 'filter' and so on.  Warning - searching with wildcards both in the beginning and end of your search criteria will most likely result in a long search time (30 seconds).  The users displayed can be filtered by typing in the Result Filter textbox.  Any part of the user's name can be typed and all matching results will be displayed.  For instance, typing "smit" would match on "Smith, John D".  Simply delete all or part of what you typed in the Result Filter to view the unfiltered results. 
+
+Find Locked Accounts:  Enter the word "locked" in the ID textbox and either press enter or click the Check button.  All locked accounts in the currently selected domain will be returned.
+
+Working With Different Domains:  This feature is especially useful to see the status of user accounts in another domain as well as to see what AD groups a user is a member of in the other domain.  Select the domain you wish to query from the domain dropdown.  You will be required to enter your valid password for that domain.  CAUTION - if you supply the incorrect password and click Check the number of times that is configured for account lockout in that domain, you WILL LOCK YOUR ACCOUNT.  Be sure you know your password and that it is entered correctly.</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>You have provided an invalid password for the chosen domain. Please update and try again. Repeated attempts may lock your account.</value>
+  </data>
+  <data name="SettingMinQueryLength" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Main_CheckClick_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Main_ExportClick_CSV_files" xml:space="preserve">
+    <value>csv files (*.csv)|*.csv|All files (*.*)|*.*</value>
+  </data>
+</root>
